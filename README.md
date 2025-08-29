@@ -9,7 +9,7 @@ A robust machine learning framework to classify student performance into low, me
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Random Forest Classifier** with 300 trees and balanced class weights.
 - **Preprocessing Pipeline**: Median imputation, scaling, one-hot encoding.
@@ -23,7 +23,7 @@ A robust machine learning framework to classify student performance into low, me
 
 ---
 
-## 📈 Results
+## Results
 
 | Model Variant          | CV F1-Score | Holdout Accuracy |
 |------------------------|-------------|------------------|
@@ -31,13 +31,14 @@ A robust machine learning framework to classify student performance into low, me
 | Without Stream Feature | 89.8%       | 90.8%            |
 
 **Key Findings:**  
-- Stream (`stu_group`) is the most influential feature.  
+- `stu_group` is a strong class-wise explanatory feature (large SHAP values across multiple classes). Global permutation importance indicates other features (e.g., `mother_education variants`) are among the highest ranked predictors — see permutation importance table and SHAP class summaries. 
 - Arts stream: 98.7% accuracy, but low recall for medium performance.  
 - Science stream: 96.96% accuracy, recall imbalance across classes.
 
+**Note:** per-stream cross-validation F1 scores are unstable (low CV F1 but high holdout accuracy) for some streams — likely due to class imbalance and small support for certain classes. See stream-specific class supports and confusion matrices in the notebook.
 ---
 
-## 📂 Dataset
+## Dataset
 
 - **Size**: 8,612 records.  
 - **Features** (17 used in modeling):
@@ -48,7 +49,7 @@ A robust machine learning framework to classify student performance into low, me
 
 ---
 
-## 🔧 Installation & Usage
+## Installation & Usage
 
 ```bash
 git clone https://github.com/your-username/student-performance-fairness.git
@@ -69,7 +70,7 @@ fairness_report = predictor.analyze_fairness(df)
 
 ---
 
-## 📚 Selected References
+## Selected References
 
 1. EL Habti et al. (2025), _Enhancing Student Performance Prediction in e-Learning_, IJIEIT.  
 2. Lundberg & Lee (2017), _A Unified Approach to Interpreting Model Predictions_, NIPS.  
@@ -79,7 +80,7 @@ fairness_report = predictor.analyze_fairness(df)
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork repository  
 2. Create branch (`git checkout -b feature/new-idea`)  
@@ -90,7 +91,7 @@ Contributions on bias mitigation techniques, new fairness metrics, and longitudi
 
 ---
 
-## 🔮 Future Work
+## Future Work
 
 - **Intersectional Fairness** analysis  
 - **Causal Inference** integration  
