@@ -36,6 +36,7 @@ A robust machine learning framework to classify student performance into low, me
 - Science stream: 96.96% accuracy, recall imbalance across classes.
 
 **Note**: per-stream cross-validation F1 scores are unstable (low CV F1 but high holdout accuracy) for some streams — likely due to class imbalance and small support for certain classes. See stream-specific class supports and confusion matrices in the notebook.
+
 ---
 
 ## Dataset
