@@ -73,8 +73,16 @@ Contributions on bias mitigation techniques, new fairness metrics, longitudinal 
 
 ## References
 
-1. EL Habti et al. (2025), _Enhancing Student Performance Prediction in e-Learning_, IJIEIT.  
-2. Lundberg & Lee (2017), _A Unified Approach to Interpreting Model Predictions_, NIPS.  
-3. Arjovsky et al. (2020), _Fairness: Detection & Recourse using SHAP_, arXiv.  
-4. World Bank (2021), _National Assessments of Student Learning Outcomes in Bangladesh_.  
-5. Nature Sci. Reports (2025), _ML-based Academic Performance Prediction_.
+[1] W. Ahmed, M. A. Wani, P. Plawiak, S. Meshoul, A. Mahmoud, and M. Hammad, “Machine learning-based academic performance prediction with explainability for enhanced decision-making in educational institutions,” Scientific Reports, vol. 15, no. 1, p. 26879, Jul. 2025. [Online]. Available: https://doi.org/10.1038/s41598-025-12353-4
+
+[2] S. Malik, S. G. K. Patro, C. Mahanty, R. Hegde, Q. N. Naveed, A. Lasisi, A. Buradi, A. F. Emma, and N. Kraiem, “Advancing educational data mining for enhanced student performance prediction: a fusion of feature selection algorithms and classification techniques with dynamic feature ensemble evolution,” Scientific Reports, vol. 15, no. 1, p. 8738, Mar. 2025. [Online]. Available: https://doi.org/10.1038/s41598-025-92324-x
+
+[3] Y. Wang and L. Singh, “Impact on bias mitigation algorithms to variations in inferred sensitive attribute uncertainty,” Frontiers in Artificial Intelligence, vol. 8, Art. no. 1520330, Mar. 2025. [Online]. Available: https://doi.org/10.3389/frai.2025.1520330
+
+[4] J. Wang and Y. Yu, “Machine learning approach to student performance prediction of online learning,” PLOS ONE, vol. 20, no. 1, p. e0299018, Jan. 2025. [Online]. Available: https://doi.org/10.1371/journal.pone.0299018
+
+[5] Z. Liu, X. Zhou, and Y. Liu, “Student dropout prediction using ensemble learning with SHAP-based explainable AI analysis,” Journal of Social Systems and Policy Analysis, vol. 2, no. 3, pp. 111–132, Aug. 2025. [Online]. Available: https://doi.org/10.62762/JSSPA.2025.321501
+
+[6] E. Ben George, R. Senthilkumar, F. Al-Junaibi, and Z. Al-Shuaibi, “Explainable AI methods for predicting student grades and improving academic success,” Journal of Information Systems Engineering and Management, vol. 10, no. 23s, Mar. 2025. [Online]. Available: https://doi.org/10.52783/jisem.v10i23s.3680
+
+[7] M. El Jihaoui, O. E. Abra, and K. Mansouri, “Predicting and interpreting student academic performance: A deep learning and SHAP approach,” SHS Web of Conferences, CIFEM’2024, vol. 214, Art. no. 01001, 2025. [Online]. Available: https://doi.org/10.1051/shsconf/202521401001
