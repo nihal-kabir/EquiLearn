@@ -1,4 +1,4 @@
-# EquiLearn: An Explainable Machine Learning Approach for Predicting Student Academic Performance in Bangladesh with Fairness Mitigation
+# An Explainable Machine Learning Approach for Predicting Student Academic Performance in Bangladesh with Fairness Mitigation
 
 [![Python](https://img.shields.io/badge/python-3.12+-blue)](https://www.python.org/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.6+-orange)](https://scikit-learn.org/)
